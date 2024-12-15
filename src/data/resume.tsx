@@ -7,7 +7,8 @@ export const DATA = {
   url: "https://martinfogliacco.vercel.app",
   location: "Florencio Varela, Buenos Aires",
   locationLink: "https://www.google.com/maps/place/florenciovarela",
-  description: "Front End Developer with Back end knowledge.",
+  description:
+    "Crafting Intuitive and Visually Engaging Web Experiences with a Full-Stack Approach.",
   summary:
     "Front End Developer specialized in creating innovative, user-centered web experiences. With a strong background as an IT Technician, I excel at designing intuitive and visually appealing interfaces, applying UX/UI principles to enhance the end-user experience. I also bring backend development knowledge, allowing me to provide comprehensive web solutions.",
   avatarUrl: "/me.jpeg",
@@ -16,6 +17,7 @@ export const DATA = {
     "CSS",
     "SASS/SCSS",
     "Liquid",
+    "Astro",
     "React",
     "Redux",
     "Zustand",
@@ -67,7 +69,7 @@ export const DATA = {
       start: "Sep 2023",
       end: "Current",
       description:
-        "I developed and styled graphical interfaces, using Figma for design. I maintained and improved code, and worked on Back End and Headless CMS development. I managed tasks and timelines, as well as integrated online payment methods and authentication systems (credentials and OAuth).",
+        "Responsible for developing and styling graphical interfaces using Figma for design. Maintained and improved code while working on Back End and Headless CMS development. Managed tasks and timelines, and handled the integration of online payment methods and authentication systems (credentials and OAuth).",
     },
     {
       company: "Airtech SA",
@@ -79,7 +81,7 @@ export const DATA = {
       start: "Jan 2023",
       end: "Sep 2023",
       description:
-        "I designed and developed graphical interfaces using Figma, focusing on creating visually appealing and functional user experiences. I was responsible for developing and styling these interfaces, ensuring accurate implementation of the designs. Additionally, I handled the integration of the interfaces with external APIs to ensure connectivity and data flow.",
+        "Designed and developed graphical interfaces using Figma, with a focus on creating visually appealing and functional user experiences. Responsible for developing and styling the interfaces, ensuring accurate implementation of the designs. Additionally, handled the integration of the interfaces with external APIs to ensure seamless connectivity and data flow.",
     },
     {
       company: "Airtech SA",
@@ -91,10 +93,18 @@ export const DATA = {
       start: "Apr 2021",
       end: "Jun 2022",
       description:
-        "I provided remote technical support for a SaaS platform, assisting clients in troubleshooting and resolving issues. I was responsible for training new users on specific system modules, ensuring they could fully utilize its features. I used SQL Server to perform data analysis and resolve technical issues by developing and executing custom scripts.",
+        "Provided remote technical support for a SaaS platform, assisting clients with troubleshooting and issue resolution. Responsible for training new users on specific system modules, ensuring effective use of all features. Utilized SQL Server for data analysis and resolved technical issues through the development and execution of custom scripts.",
     },
   ],
   education: [
+    {
+      school: "Udacity",
+      href: "https://www.udacity.com/course/software-design-patterns--ud821",
+      degree: "Software Architecture & Design",
+      logoUrl: "/udacity.png",
+      start: "Dec 2024",
+      end: "In Progress",
+    },
     {
       school: "SoyHenry Bootcamp",
       href: "https://www.soyhenry.com",
@@ -119,7 +129,7 @@ export const DATA = {
       dates: "Dec 2024 - Development",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Qualitrack Platform is a SaaS for managing inventory, sales, and repairs, with customizable user roles and a dashboard for key metrics. It streamlines business operations and includes future integrations for billing and customer notifications.",
       technologies: [
         "React 18",
         "Typescript",
@@ -131,13 +141,13 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://qualitrack.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image:
+        "https://images.unsplash.com/photo-1663517768994-a65e6ab3a40a?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      video: "",
     },
     {
       title: "Qualitrack Landing Page",
@@ -145,7 +155,7 @@ export const DATA = {
       dates: "Dec 2024 - Development",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "The Qualitrack Platform landing page showcases the key features of the SaaS solution, designed to effectively highlight its inventory, sales, and repair management capabilities. The page focuses on providing clear, visually appealing content to engage visitors and encourage conversions, with prominent calls to action for user sign-up and further exploration of the platform's functionalities.",
       technologies: ["Astro", "Typescript", "Sanity CMS", "TailwindCSS"],
       links: [
         {
@@ -154,16 +164,17 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image:
+        "https://images.unsplash.com/photo-1678366633407-7f49da199a42?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      video: "",
     },
     {
-      title: "Huga Design Studio",
+      title: "Hüga Design Studio",
       href: "https://www.hugadesignstudio.com",
       dates: "Jun 2024 - Dec 2024",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Hüga Design Studio is a graphic design studio offering a website that sells courses, services, and work plans to boost your brand development.",
       technologies: ["React 18", "TailwindCSS", "Sanity CMS"],
       links: [
         {
@@ -172,8 +183,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image:
+        "https://images.unsplash.com/photo-1679417220247-f3f5e32b1844?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      video: "",
     },
   ],
 } as const;
