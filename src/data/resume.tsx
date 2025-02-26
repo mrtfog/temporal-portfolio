@@ -16,6 +16,7 @@ export const DATA = {
     "HTML",
     "CSS",
     "SASS/SCSS",
+    "TailwindCSS",
     "Liquid",
     "Astro",
     "React",
@@ -27,6 +28,9 @@ export const DATA = {
     "Express.js",
     "Nest.js",
     "Sanity.io",
+    "Stripe",
+    "Mercadopago",
+    "Shopify",
     "Figma",
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
@@ -98,15 +102,15 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Udacity",
-      href: "https://www.udacity.com/course/software-design-patterns--ud821",
-      degree: "Software Architecture & Design",
-      logoUrl: "/udacity.png",
-      start: "Dec 2024",
-      end: "In Progress",
+      school: "UAI - Universidad Abierta Interamericana",
+      href: "https://www.uai.edu.ar/",
+      degree: "Software Analyst Programmer",
+      logoUrl: "/uai-logo.png",
+      start: "Feb 2025",
+      end: "Aug 2027 (expected)",
     },
     {
-      school: "SoyHenry Bootcamp",
+      school: "Henry Bootcamp",
       href: "https://www.soyhenry.com",
       degree: "Full Stack Developer",
       logoUrl: "/soy-henry.png",
@@ -123,6 +127,32 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Lautaro Rodriguez Filmmaker Portfolio",
+      href: "https://lautaro-rodriguez.vercel.app",
+      dates: "Feb 2025 - Development",
+      active: true,
+      description:
+        "Lautaro Rodriguez Filmmaker Portfolio is a website that showcases the work of a talented filmmaker, highlighting his projects and services. The site features a clean and modern design, with a focus on visual storytelling to engage visitors and showcase the filmmaker's unique style and capabilities.",
+      technologies: [
+        "React 18",
+        "Next 14",
+        "GSAP",
+        "Framer Motion",
+        "TailwindCSS",
+        "Sanity CMS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://lautaro-rodriguez.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image:
+        "https://images.unsplash.com/photo-1679417220247-f3f5e32b1844?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      video: "",
+    },
     {
       title: "Qualitrack Platform",
       href: "https://chatcollect.com",
