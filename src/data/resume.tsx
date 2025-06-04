@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Crafting Intuitive and Visually Engaging Web Experiences with a Full-Stack Approach.",
   summary:
-    "Front End Developer specialized in creating innovative, user-centered web experiences. With a strong background as an IT Technician, I excel at designing intuitive and visually appealing interfaces, applying UX/UI principles to enhance the end-user experience. I also bring backend development knowledge, allowing me to provide comprehensive web solutions.",
+    "Front End Developer focused on creating user-centered web experiences. I specialize in designing intuitive and attractive interfaces, applying UX/UI principles to optimize the user experience and translating them into scalable and reusable code. Additionally, I possess knowledge in backend development, which allows me to offer complete and functional web solutions.",
   avatarUrl: "/me.jpeg",
   skills: [
     "HTML",
@@ -26,11 +26,12 @@ export const DATA = {
     "Typescript",
     "Node.js",
     "Express.js",
-    "Nest.js",
     "Sanity.io",
     "Stripe",
     "Mercadopago",
     "Shopify",
+    "Supabase",
+    "N8N.io",
     "Figma",
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
@@ -68,12 +69,12 @@ export const DATA = {
       href: "https://www.violacreative.com",
       badges: [],
       location: "Remote",
-      title: "Full Stack Developer",
+      title: "Software Architect & Team Mentor",
       logoUrl: "/viola-creative.png",
       start: "Sep 2023",
       end: "Current",
       description:
-        "Responsible for developing and styling graphical interfaces using Figma for design. Maintained and improved code while working on Back End and Headless CMS development. Managed tasks and timelines, and handled the integration of online payment methods and authentication systems (credentials and OAuth).",
+        "Responsible for developing and styling responsive graphical interfaces using React, Next.js, and Astro, with Figma for design and mockups. Maintained and improved codebases while working on Back End development with REST APIs, MongoDB databases, and Headless CMS solutions like Sanity.IO. Managed development tasks and timelines, handled integrations of online payment methods and authentication systems (credentials and OAuth), implemented SEO optimization, and led technical teams through mentoring and code reviews.",
     },
     {
       company: "Airtech SA",
@@ -85,7 +86,7 @@ export const DATA = {
       start: "Jan 2023",
       end: "Sep 2023",
       description:
-        "Designed and developed graphical interfaces using Figma, with a focus on creating visually appealing and functional user experiences. Responsible for developing and styling the interfaces, ensuring accurate implementation of the designs. Additionally, handled the integration of the interfaces with external APIs to ensure seamless connectivity and data flow.",
+        "Responsible for developing and styling SaaS applications using React and Redux for state management. Handled REST API connections and integrations while designing graphical interfaces with Figma. Maintained and improved existing codebases to ensure optimal performance and scalability.",
     },
     {
       company: "Airtech SA",
@@ -102,12 +103,12 @@ export const DATA = {
   ],
   education: [
     {
-      school: "UAI - Universidad Abierta Interamericana",
-      href: "https://www.uai.edu.ar/",
-      degree: "Software Analyst Programmer",
-      logoUrl: "/uai-logo.png",
-      start: "Feb 2025",
-      end: "Aug 2027 (expected)",
+      school: "University of Alberta",
+      href: "https://www.coursera.org/specializations/software-design-architecture?action=enroll",
+      degree: "Specialized Program: Software Design and Architecture",
+      logoUrl: "/ualberta-logo.png",
+      start: "July 2025",
+      end: "November 2025 (expected)",
     },
     {
       school: "Henry Bootcamp",
@@ -128,9 +129,36 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "SaaS Automation Builder",
+      href: "",
+      dates: "May 2025 - Present",
+      active: true,
+      description:
+        "SaaS Automation Builder is a platform for building and managing automation workflows for your business. It allows you to create, edit, and delete automation workflows, and to view the status of your workflows.",
+      technologies: [
+        "Clerk Authentication",
+        "Neon Tech",
+        "Uploadcare",
+        "Ngrok",
+        "Nextjs 14",
+        "Stripe",
+        "Bun",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://qualitrack.vercel.app",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+      ],
+      image:
+        "https://images.unsplash.com/photo-1663517768994-a65e6ab3a40a?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      video: "",
+    },
+    {
       title: "Lautaro Rodriguez Filmmaker Portfolio",
       href: "https://lautaro-rodriguez.vercel.app",
-      dates: "Feb 2025 - Development",
+      dates: "May 2025 - Present",
       active: true,
       description:
         "Lautaro Rodriguez Filmmaker Portfolio is a website that showcases the work of a talented filmmaker, highlighting his projects and services. The site features a clean and modern design, with a focus on visual storytelling to engage visitors and showcase the filmmaker's unique style and capabilities.",
@@ -155,25 +183,24 @@ export const DATA = {
     },
     {
       title: "Qualitrack Platform",
-      href: "https://chatcollect.com",
-      dates: "Dec 2024 - Development",
+      href: "https://qualitrack.vercel.app",
+      dates: "Dec 2024 - Present",
       active: true,
       description:
         "Qualitrack Platform is a SaaS for managing inventory, sales, and repairs, with customizable user roles and a dashboard for key metrics. It streamlines business operations and includes future integrations for billing and customer notifications.",
       technologies: [
         "React 18",
         "Typescript",
-        "Nest.JS",
-        "Prisma",
-        "MongoDB",
-        "NextUI",
+        "Supabase",
+        "Shadcn UI",
+        "SCSS Modules",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://qualitrack.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://qualitrack.vercel.app",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
       ],
       image:
         "https://images.unsplash.com/photo-1663517768994-a65e6ab3a40a?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -181,18 +208,18 @@ export const DATA = {
     },
     {
       title: "Qualitrack Landing Page",
-      href: "https://magicui.design",
-      dates: "Dec 2024 - Development",
+      href: "https://qualitrack.vercel.app",
+      dates: "Dec 2024 - Present",
       active: true,
       description:
         "The Qualitrack Platform landing page showcases the key features of the SaaS solution, designed to effectively highlight its inventory, sales, and repair management capabilities. The page focuses on providing clear, visually appealing content to engage visitors and encourage conversions, with prominent calls to action for user sign-up and further exploration of the platform's functionalities.",
       technologies: ["Astro", "Typescript", "Sanity CMS", "TailwindCSS"],
       links: [
-        {
-          type: "Website",
-          href: "https://qualitrack.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://qualitrack.vercel.app",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
       ],
       image:
         "https://images.unsplash.com/photo-1678366633407-7f49da199a42?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -200,19 +227,13 @@ export const DATA = {
     },
     {
       title: "Hüga Design Studio",
-      href: "https://www.hugadesignstudio.com",
+      href: "",
       dates: "Jun 2024 - Dec 2024",
-      active: true,
+      active: false,
       description:
         "Hüga Design Studio is a graphic design studio offering a website that sells courses, services, and work plans to boost your brand development.",
       technologies: ["React 18", "TailwindCSS", "Sanity CMS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.hugadesignstudio.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       image:
         "https://images.unsplash.com/photo-1679417220247-f3f5e32b1844?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       video: "",
