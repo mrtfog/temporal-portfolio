@@ -28,7 +28,7 @@ export const DATA = {
     "Express.js",
     "Sanity.io",
     "Stripe",
-    "Mercadopago",
+    "MercadoPago",
     "Shopify",
     "Supabase",
     "N8N.io",
@@ -65,14 +65,26 @@ export const DATA = {
 
   work: [
     {
+      company: "Finaer",
+      href: "https://www.finaersa.com.ar",
+      badges: [],
+      location: "Hybrid",
+      title: "Front End Developer",
+      logoUrl: "/finaer-logo.jpeg",
+      start: "Aug 2025",
+      end: "Current",
+      description:
+        "Responsible for developing and styling responsive graphical interfaces using React, Next.js, with Figma for design and mockups. Maintained and improved codebases.",
+    },
+    {
       company: "Viola Creative",
       href: "https://www.violacreative.com",
       badges: [],
       location: "Remote",
-      title: "Software Architect & Team Mentor",
+      title: "Front End Developer - Team Lead",
       logoUrl: "/viola-creative.png",
       start: "Sep 2023",
-      end: "Current",
+      end: "Jul 2025",
       description:
         "Responsible for developing and styling responsive graphical interfaces using React, Next.js, and Astro, with Figma for design and mockups. Maintained and improved codebases while working on Back End development with REST APIs, MongoDB databases, and Headless CMS solutions like Sanity.IO. Managed development tasks and timelines, handled integrations of online payment methods and authentication systems (credentials and OAuth), implemented SEO optimization, and led technical teams through mentoring and code reviews.",
     },
@@ -93,7 +105,7 @@ export const DATA = {
       href: "https://www.violacreative.com",
       badges: [],
       location: "Remote",
-      title: "Technical Support",
+      title: "Functional Systems Analyst",
       logoUrl: "/gestion-aguas.jpeg",
       start: "Apr 2021",
       end: "Jun 2022",
@@ -103,12 +115,12 @@ export const DATA = {
   ],
   education: [
     {
-      school: "University of Alberta",
-      href: "https://www.coursera.org/specializations/software-design-architecture?action=enroll",
-      degree: "Specialized Program: Software Design and Architecture",
-      logoUrl: "/ualberta-logo.png",
-      start: "July 2025",
-      end: "November 2025 (expected)",
+      school: "UTN E-Learning Center",
+      href: "https://sceu.frba.utn.edu.ar/e-learning/detalle/diplomatura/3346/diplomatura-en-blockchain-y-finanzas-digitales",
+      degree: "Professional Diploma in Blockchain and Digital Finance",
+      logoUrl: "/utn-logo.jpeg",
+      start: "March 2026",
+      end: "November 2026 (expected)",
     },
     {
       school: "Henry Bootcamp",
@@ -129,30 +141,47 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "SaaS Automation Builder",
-      href: "",
-      dates: "May 2025 - Present",
+      title: "The Mindful Network",
+      href: "https://themindfulnetwork.com/",
+      dates: "Feb 2025 - Jul 2025",
       active: true,
       description:
-        "SaaS Automation Builder is a platform for building and managing automation workflows for your business. It allows you to create, edit, and delete automation workflows, and to view the status of your workflows.",
+        "The Mindful Network is your comprehensive guide to finding and connecting with mental health resources in South Florida. Explore therapy options, medication management, outpatient and inpatient programs, and innovative therapies tailored for individuals aged 40 and above.",
       technologies: [
-        "Clerk Authentication",
-        "Neon Tech",
-        "Uploadcare",
-        "Ngrok",
-        "Nextjs 14",
-        "Stripe",
-        "Bun",
+        "React 18",
+        "Next 14",
+        "Typescript",
+        "Framer Motion",
+        "TailwindCSS",
+        "Sanity CMS",
+        "Figma Design",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "https://qualitrack.vercel.app",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Website",
+          href: "https://themindfulnetwork.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
-      image:
-        "https://images.unsplash.com/photo-1663517768994-a65e6ab3a40a?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "/the-mindful-network.png",
+      video: "",
+    },
+    {
+      title: "Por El Deporte",
+      href: "https://poreldeporte.com/",
+      dates: "Oct 2024 - Dec 2024",
+      active: true,
+      description:
+        "Por El Deporte is a lifestyle and sports-inspired online brand that offers a curated shop of athletic apparel and accessories. The site features jerseys, tees, hoodies, caps, and other gear with original designs tied to a community ethos and cultural identity rooted in sport. It includes a mission section and gallery alongside social media links, emphasizing community engagement and supporting its brand culture through merchandise sales.",
+      technologies: ["Liquid", "Shopify"],
+      links: [
+        {
+          type: "Website",
+          href: "https://poreldeporte.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/por-el-deporte.png",
       video: "",
     },
     {
@@ -169,6 +198,7 @@ export const DATA = {
         "Framer Motion",
         "TailwindCSS",
         "Sanity CMS",
+        "Figma Design",
       ],
       links: [
         {
@@ -177,13 +207,14 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image:
-        "https://images.unsplash.com/photo-1679417220247-f3f5e32b1844?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "/lautaro-rodriguez.png",
+      // image:
+      //   "https://images.unsplash.com/photo-1679417220247-f3f5e32b1844?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       video: "",
     },
     {
       title: "Qualitrack Platform",
-      href: "https://qualitrack.vercel.app",
+      href: "",
       dates: "Dec 2024 - Present",
       active: true,
       description:
@@ -193,49 +224,17 @@ export const DATA = {
         "Typescript",
         "Supabase",
         "Shadcn UI",
-        "SCSS Modules",
+        "TailwindCSS",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "https://qualitrack.vercel.app",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "GitHub",
+          href: "https://github.com/mrtfog/qualitrack-mono",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
       image:
         "https://images.unsplash.com/photo-1663517768994-a65e6ab3a40a?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      video: "",
-    },
-    {
-      title: "Qualitrack Landing Page",
-      href: "https://qualitrack.vercel.app",
-      dates: "Dec 2024 - Present",
-      active: true,
-      description:
-        "The Qualitrack Platform landing page showcases the key features of the SaaS solution, designed to effectively highlight its inventory, sales, and repair management capabilities. The page focuses on providing clear, visually appealing content to engage visitors and encourage conversions, with prominent calls to action for user sign-up and further exploration of the platform's functionalities.",
-      technologies: ["Astro", "Typescript", "Sanity CMS", "TailwindCSS"],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "https://qualitrack.vercel.app",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
-      ],
-      image:
-        "https://images.unsplash.com/photo-1678366633407-7f49da199a42?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      video: "",
-    },
-    {
-      title: "Hüga Design Studio",
-      href: "",
-      dates: "Jun 2024 - Dec 2024",
-      active: false,
-      description:
-        "Hüga Design Studio is a graphic design studio offering a website that sells courses, services, and work plans to boost your brand development.",
-      technologies: ["React 18", "TailwindCSS", "Sanity CMS"],
-      links: [],
-      image:
-        "https://images.unsplash.com/photo-1679417220247-f3f5e32b1844?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       video: "",
     },
   ],
